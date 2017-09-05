@@ -12,13 +12,13 @@ category:            Web
 build-type:          Simple
 cabal-version:       >=1.10
 
-data-files:          report.org.tpl
+--data-files:          report.org.tpl
 
 executable hours
   hs-source-dirs:      src
   main-is:             Main.hs
   other-modules:       Orphans
-  ghc-options:         -O2 -threaded -rtsopts -with-rtsopts=-N
+  ghc-options:         -threaded -rtsopts -with-rtsopts=-N
   build-depends:       base
                      , bytestring
                      , directory
