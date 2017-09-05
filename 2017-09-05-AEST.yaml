@@ -1,0 +1,14 @@
+currentInfo: null
+timeWorked: 25.248095s
+registered: 2017-09-05 23:23:12.529934
+timezone:
+  timeZoneName: AEST
+  timeZoneMinutes: 600
+  timeZoneSummerOnly: false
+shifts:
+- start: 2017-09-05 23:23:12.529757
+  end: 2017-09-05 23:23:37.777852
+  duration: 25.248095s
+  info: null
+filename: 2017-09-05-AEST.yaml
+currentShift: 2017-09-05 13:25:06.071257 UTC

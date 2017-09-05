@@ -1,3 +1,4 @@
+{-# OPTIONS_GHC -fwarn-missing-signatures #-}
 {-# LANGUAGE DeriveAnyClass    #-}
 {-# LANGUAGE DeriveGeneric     #-}
 {-# LANGUAGE OverloadedLists   #-}
