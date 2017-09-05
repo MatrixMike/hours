@@ -3,7 +3,7 @@
 {-# LANGUAGE DeriveGeneric     #-}
 {-# LANGUAGE OverloadedLists   #-}
 {-# LANGUAGE OverloadedStrings #-}
-{-# LANGUAGE QuasiQuotes       #-}
+
 module Main where
 import qualified Data.ByteString.Char8 as B
 import           Data.Fixed            (E2, Fixed)
@@ -65,7 +65,7 @@ timesheet = do
 
 tsName :: Day -> TimeZone -> String
 tsName day tz =
-  shows day ("-" ++ show tz)
+  shows day (  '-' : show tz)
 
 saveTimesheet :: Timesheet -> IO ()
 saveTimesheet ts = do
