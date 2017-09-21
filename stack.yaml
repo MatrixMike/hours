@@ -2,7 +2,7 @@
 # For more information, see: http://docs.haskellstack.org/en/stable/yaml_configuration/
 
 # Specifies the GHC version and set of packages available (e.g., lts-3.5, nightly-2015-09-21, ghc-7.10.2)
-resolver: lts-8.23
+resolver: lts-3.5
 #ghc-8.2.1
 
 #base: >=4.7 && <5
@@ -10,7 +10,10 @@ resolver: lts-8.23
 packages:
 - '.'
 # Packages to be pulled from upstream that are not in the resolver (e.g., acme-missiles-0.3)
-extra-deps: []
+extra-deps: [
+        thyme-0.3.5.5
+       , yaml-0.8.23.3
+]
 #         aeson-1.2.1.0
 #       , ede-0.2.8.7
 #       , text-1.2.2.2
