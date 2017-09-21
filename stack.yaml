@@ -11,7 +11,7 @@ packages:
 - '.'
 # Packages to be pulled from upstream that are not in the resolver (e.g., acme-missiles-0.3)
 extra-deps: [
-    ede-0.2.8.7
+    
 ]
 #         aeson-1.2.1.0
 #       , ede-0.2.8.7

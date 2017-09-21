@@ -58,7 +58,7 @@ executable hours
   
   -- Other library packages from which modules are imported.
   build-depends:       base >=4.8 && <5.0.0.0, bytestring >=0.10 && <0.11, directory >=1.2 && <1.4
-                       , text , ede, double-conversion , trifecta
+  --                     , text , ede, double-conversion , trifecta
   
   -- Directories containing source files.
   hs-source-dirs:      src
